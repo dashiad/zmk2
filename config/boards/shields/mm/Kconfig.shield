@@ -1,0 +1,4 @@
+config SHIELD_MODELM_HANDWIRE
+    bool "IBM Model M Handwired"
+    default y
+    depends on BOARD_NICE_NANO_V2
